@@ -1,0 +1,5 @@
+db name: ecowood
+table name: clientes
+
+nome, cidade, tel
+

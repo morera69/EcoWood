@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Play', Arial, sans-serif;
+    background-color: black;
+
+}
+
+.container{
+    max-width: 1000px;
+    margin:auto;
+}
+
+.save{
+    color: #595959;
+}
+
+.logo{
+    width: 500px;
+}
+header, footer{
+    padding:30px;
+    background-color: #595959;
+    text-align: center;
+    border-top: 1px solid #2B2D42;
+    color:#EDF2F4;
+}
+
+
+header h1{
+    text-shadow: 2px 2px 3px #2B2D42;
+    font-size: 3em;
+}
+
+nav{
+    background-color: black;
+    border-top: 1px solid #2B2D42;
+    display:flex;
+    justify-content: space-around;
+    font-weight: 1.3em;
+}
+
+nav a:link{
+    color: #EDF2F4;
+    padding:20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: black;
+}
+
+main{
+    padding:40px;
+    line-height: 140%;
+    color:#2B2D42;
+    background-color: #EDF2F4;
+}
+
+h1:not(header h1){
+    border-bottom: 2px solid #CCC;
+    padding-bottom: 10px;
+}
+
+div.imovel, div.categoria{
+    padding:20px;
+    background-color: #CCC;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+div.imovel p{
+    border-bottom: 1px dotted #d3d3d3;
+}
+
+a.apagar:visited{
+    color: #ac021e;
+    float: right;
+    margin: 0px 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    max-width: 1000px;
+    margin:auto;
+}
+
+header, footer{
+    padding:30px;
+    background-color: #595959;
+    text-align: center;
+    border-top: 1px solid #2B2D42;
+    color:#EDF2F4;
+}
+
+
+header h1{
+    text-shadow: 2px 2px 3px #2B2D42;
+    font-size: 3em;
+}
+
+nav{
+    background-color: #595959;
+    border-top: 1px solid #2B2D42;
+    display:flex;
+    justify-content: space-around;
+    font-weight: 1.3em;
+}
+
+nav a:link{
+    color: #EDF2F4;
+    padding:20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:black;
+}
+
+main{
+    padding:40px;
+    line-height: 140%;
+    color:#2B2D42;
+    background-color: #EDF2F4;
+}
+
+h1:not(header h1){
+    border-bottom: 2px solid #CCC;
+    padding-bottom: 10px;
+}
+
+/* fomatar seção imovel e categoria*/
+div.imovel, div.categoria{
+    padding:20px;
+    background-color: #CCC;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+div.imovel p{
+    border-bottom: 1px dotted #d3d3d3;
+}
+
+/* form */
+
+
+form {
+    border: 1px solid black;
+}
+
+form div {
+    padding: 10px;
+    border-bottom: 1px dotted #FFF;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=date],
+textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    resize: none;
+}
+
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+fieldset {
+    border: 2px solid rgb(33, 33, 107);
+    border-radius: 5px;
+}
+
+legend {
+    padding: 5px 30px;
+    background-color: rgb(33, 33, 107);
+    color: #CCC;
+    border: 2px solid rgb(33, 33, 107);
+    border-radius: 5px;
+}
+/* para telas maiores que 600px */
+@media screen and (min-width:600px) {
+
+    label {
+        min-width: 60px;
+        display: inline-block;
+    }
+
+    form div {
+        padding: 30px;
+    }
+}
+
+input[type=submit]{
+    background-color: #595959;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+a.apagar:link, a.apagar:visited{
+    color:red;
+    float:right;
+    margin:0px 10px;
+}
+
+.paginacao{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.form-inline{
+    display: flex;
+    align-items: center;
+    border: none;
+}

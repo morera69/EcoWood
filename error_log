@@ -1,0 +1,21 @@
+[06-Sep-2023 16:17:26 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php:7
+Stack trace:
+#0 /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home4/lazyph90/aluno.ninja/2023/morera/sistems/pages/inicio.php(8): require_once('/home4/lazyph90...')
+#2 /home4/lazyph90/aluno.ninja/2023/morera/sistems/index.php(39): require('/home4/lazyph90...')
+#3 {main}
+  thrown in /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php on line 7
+[06-Sep-2023 16:17:34 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php:7
+Stack trace:
+#0 /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home4/lazyph90/aluno.ninja/2023/morera/sistems/pages/novo_prop.php(4): require_once('/home4/lazyph90...')
+#2 /home4/lazyph90/aluno.ninja/2023/morera/sistems/index.php(37): require('/home4/lazyph90...')
+#3 {main}
+  thrown in /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php on line 7
+[06-Sep-2023 16:17:50 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php:7
+Stack trace:
+#0 /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home4/lazyph90/aluno.ninja/2023/morera/sistems/pages/inicio.php(8): require_once('/home4/lazyph90...')
+#2 /home4/lazyph90/aluno.ninja/2023/morera/sistems/index.php(39): require('/home4/lazyph90...')
+#3 {main}
+  thrown in /home4/lazyph90/aluno.ninja/2023/morera/sistems/incluedes/conexao.php on line 7
